@@ -23,9 +23,6 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities
       })
-      lspconfig.solargraph.setup({
-        capabilities = capabilities
-      })
       lspconfig.html.setup({
         capabilities = capabilities
       })
@@ -35,7 +32,7 @@ return {
       lspconfig.cssls.setup({
       capabilities = capabilities
       })
-     -- lspconfig.omnisharp.({
+    -- lspconfig.omnisharp.({
        -- capabilities = capabilities
       --})
 
